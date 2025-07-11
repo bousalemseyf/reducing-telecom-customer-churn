@@ -1,76 +1,64 @@
-# Reducing Telecom Customer Churn
+# 📉 Reducing Telecom Customer Churn
 
-A project to analyze and reduce telecom customer churn using Python, EDA, and Tableau.
-
----
-
-## 📊 Overview
-
-In the telecom industry, customer churn is a major issue that directly impacts revenue.  
-This project focuses on analyzing customer data to identify key factors that influence churn  
-and visualizing insights to help reduce it.
+A project to analyze and reduce telecom customer churn using **Python**, **EDA**, and **Tableau**.
 
 ---
 
-## 🗂️ Project Structure
+## 📊 Project Overview
 
-├── data/ # Raw and cleaned data files
-│ ├── WA_Fn-UseC_-Telco-Customer-Churn.csv # Original dataset from Kaggle
-│ └── cleaned_telco_churn.csv # Cleaned version for analysis
-│
-├── notebooks/ # Jupyter notebooks for EDA and modeling
-│ └── 01_churn_eda.ipynb
-│
-├── tableau/ # Tableau workbook and dashboard image
-│ ├── cleaned_telco_churn.hyper
-│ └── Customer Churn Analysis Dashboard.png
-│
-└── README.md # Project documentation
+This project explores a telecom customer dataset from [Kaggle](https://www.kaggle.com/).  
+We performed data cleaning, exploratory data analysis (EDA), and built visual dashboards to identify key factors contributing to customer churn.
+
+**Key steps:**
+- Cleaned and prepared raw data.
+- Analyzed customer demographics, usage patterns, and churn rates.
+- Created interactive Tableau dashboards to visualize insights.
 
 ---
 
-## 📚 Data Source
+## ⚙️ Tools & Technologies
 
-- **Dataset:** [Telco Customer Churn on Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-
----
-
-## 🔍 Analysis & Insights
-
-- Performed Exploratory Data Analysis (EDA) to understand churn distribution.
-- Identified correlations between churn and variables like contract type, tenure, and monthly charges.
-- Created a Tableau dashboard to visually communicate insights.
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)
+- **Tableau**
+- **Jupyter Notebook**
+- **Git & GitHub**
 
 ---
 
-## 📈 Tableau Dashboard
+## 📈 Files & Folders
 
-A dynamic dashboard was created in Tableau to present key findings interactively.  
-![Customer Churn Analysis Dashboard](tableau/Customer%20Churn%20Analysis%20Dashboard.png)
-
----
-
-## ✅ Key Findings
-
-- Month-to-month customers have a higher churn rate.
-- Longer contract terms and automatic payments reduce churn.
-- High monthly charges can increase the probability of churn.
+- `data/` — Raw and cleaned datasets
+- `notebooks/` — Jupyter notebooks with EDA and analysis
+- `tableau/` — Tableau workbook and dashboard images
+- `README.md` — Project documentation
 
 ---
 
-## 📌 Author
+## 📌 Key Insights
 
-**Seyf Eddine Bousalem**
-
-- [LinkedIn](https://www.linkedin.com/) — *(www.linkedin.com/in/seyf-eddine-bousalem-259710b0)*
-- [GitHub](https://github.com/bousalemseyf)
+- Identified customer segments with higher churn rates.
+- Uncovered patterns in usage and service plans related to churn.
+- Provided actionable recommendations to reduce churn.
 
 ---
 
-## 🚀 Final Note
+## ✅ Final Note
 
-This project demonstrates data cleaning, EDA, and visualization skills  
-using Python and Tableau.
+This project demonstrates data cleaning, EDA, and visualization skills using Python and Tableau.
 
-✅ *Project Completed — ready for review!*
+*Project Completed — Ready for Review*
+
+---
+
+## ✍️ Author
+
+**Seyf Eddine Bousalem**  
+Data source: [Kaggle Telecom Customer Churn Dataset](https://www.kaggle.com/)
+
+---
+
+## 📬 Contact
+
+Let’s connect on [LinkedIn](https://www.linkedin.com/)!
+
 
