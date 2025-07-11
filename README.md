@@ -9,6 +9,9 @@ A project to analyze and reduce telecom customer churn using **Python**, **EDA**
 This project explores a telecom customer dataset from [Kaggle](https://www.kaggle.com/).  
 We performed data cleaning, exploratory data analysis (EDA), and built visual dashboards to identify key factors contributing to customer churn.
 
+[![View in NBViewer](https://img.shields.io/badge/Notebook-NBViewer-579ACA.svg?logo=Jupyter)](https://nbviewer.org/github/bousalemseyf/reducing-telecom-customer-churn/blob/main/notebooks/01_churn_eda.ipynb)
+
+
 **Key steps:**
 - Cleaned and prepared raw data.
 - Analyzed customer demographics, usage patterns, and churn rates.
