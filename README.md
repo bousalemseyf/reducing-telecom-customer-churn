@@ -30,6 +30,7 @@ We performed data cleaning, exploratory data analysis (EDA), and built visual da
 ├── LICENSE
 └── README.md
 
+
 ---
 
 ## 📊 Tableau Dashboard
@@ -48,5 +49,7 @@ Data source: [Kaggle Telecom Customer Churn Dataset](https://www.kaggle.com/)
 ## 📫 Contact
 
 Let’s connect on [LinkedIn](https://www.linkedin.com/in/seyf-eddine-bousalem-259710b0)!
+
+
 
 
