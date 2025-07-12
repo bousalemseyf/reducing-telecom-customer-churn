@@ -35,7 +35,7 @@ We performed data cleaning, exploratory data analysis (EDA), and built visual da
 
 ## 📊 Tableau Dashboard
 
-View the interactive dashboard on [Tableau Public](YOUR_TABLEAU_PUBLIC_LINK_HERE)
+View the interactive dashboard on [Tableau Public](https://public.tableau.com/app/profile/bousalem.seyf.eddine/viz/cleaned_telco_churn_hyper/CustomerChurnAnalysisDashboard)
 
 ---
 
