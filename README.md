@@ -43,7 +43,7 @@ This project aims to:
 ## 📓 Notebook
 
 View the complete notebook on NBViewer:  
-👉 [View on NBViewer](https://nbviewer.org/github/bousalemseyf/reducing-telecom-customer-churn/blob/main/notebooks/01_churn_eda.ipynb)
+👉 [View on NBViewer](https://nbviewer.org/github/bousalemseyf/reducing-telecom-customer-churn/blob/main/notebooks/01_churn_eda.ipynb.ipynb)
 
 ---
 
