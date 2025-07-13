@@ -1,48 +1,82 @@
-# 📉 Reducing Telecom Customer Churn
+# 📊 Reducing Telecom Customer Churn
 
-A project to analyze and reduce telecom customer churn using **Python**, **EDA**, and **Tableau**.
-
----
-
-## 📊 Project Overview
-
-This project explores a telecom customer dataset from [Kaggle](https://www.kaggle.com/).  
-We performed data cleaning, exploratory data analysis (EDA), and built visual dashboards to identify key factors contributing to customer churn.
-
-[![View in NBViewer](https://img.shields.io/badge/Notebook-NBViewer-579ACA.svg?logo=Jupyter)](https://nbviewer.org/github/bousalemseyf/reducing-telecom-customer-churn/blob/main/notebooks/01_churn_eda.ipynb)
-
-📌 **Tableau Dashboard:** [Customer Churn Analysis Dashboard](https://public.tableau.com/app/profile/bousalem.seyf.eddine/viz/cleaned_telco_churn_hyper/CustomerChurnAnalysisDashboard)
+This project analyzes telecom customer data to identify key drivers of churn and predict which customers are likely to leave. By understanding churn patterns, telecom companies can take proactive steps to improve retention and reduce revenue loss.
 
 ---
 
-## 🔑 Key Insights
+## 📂 Dataset
 
-✅ Senior citizens are more likely to churn than younger customers.  
-✅ Month-to-month contracts have the highest churn rates compared to long-term contracts.  
-✅ Customers with fiber optic internet service churn more often than those with DSL.  
-✅ Higher monthly charges can increase the probability of churn.
+- **Source:** [Kaggle - Telco Customer Churn](https://www.kaggle.com/blastchar/telco-customer-churn)
+- The dataset includes information about customer demographics, services signed up for, account information, and whether the customer left the company.
 
 ---
 
-## ⚙️ Project Structure
+## 🎯 Problem Statement
 
-├── data/ # Raw and cleaned data files
-├── notebooks/ # Jupyter Notebook with EDA
-├── tableau/ # Tableau dashboard workbook files
-├── LICENSE
-└── README.md
+Customer churn is a critical issue for telecom companies, as acquiring new customers is far more expensive than retaining existing ones.  
+This project aims to:
+- Perform Exploratory Data Analysis (EDA) to discover patterns related to churn.
+- Build a Logistic Regression model to predict churn.
+- Communicate insights through an interactive Tableau dashboard.
 
 ---
 
-## ✍️ Author & Contact
+## 🛠️ Tools & Skills Used
+
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn, scikit-learn)
+- **Jupyter Notebook**
+- **Tableau Public**
+- **Data Cleaning, EDA, Predictive Modeling**
+
+---
+
+## 🔍 Key Insights
+
+✅ Overall churn rate: ~26% of customers  
+✅ Senior citizens and customers with month-to-month contracts are more likely to churn.  
+✅ Fiber optic internet service users churn more than DSL users.  
+✅ Customers with higher monthly charges and shorter tenure have higher churn risk.  
+✅ Built a baseline **Logistic Regression model** achieving ~79% accuracy to predict churn risk.
+
+---
+
+## 📓 Notebook
+
+View the complete notebook on NBViewer:  
+👉 [View on NBViewer](https://nbviewer.org/github/bousalemseyf/reducing-telecom-customer-churn/blob/main/notebooks/01_churn_eda.ipynb)
+
+---
+
+## 📊 Tableau Dashboard
+
+Explore the interactive dashboard for key churn segments:  
+👉 [Customer Churn Dashboard](https://public.tableau.com/app/profile/bousalem.seyf.eddine/viz/cleaned_telco_churn_hyper/CustomerChurnAnalysisDashboard)
+
+---
+
+## ✅ Project Wrap-Up
+
+This project demonstrates an end-to-end workflow for churn reduction:
+- Cleaned and prepared the dataset for analysis.
+- Performed EDA to uncover churn drivers.
+- Built and evaluated a predictive churn model using Logistic Regression.
+- Created a Tableau dashboard to communicate insights to business stakeholders.
+
+**Next Steps:**  
+- Test additional models (e.g., Decision Trees, Random Forest).
+- Tune hyperparameters for improved performance.
+- Deploy the model to help the business proactively target high-risk customers with retention offers.
+
+---
+
+## 🙌 Author
 
 **Seyf Eddine Bousalem**  
-📂 Data source: [Kaggle Telecom Customer Churn Dataset](https://www.kaggle.com/)  
-🔗 Let’s connect on [LinkedIn](https://www.linkedin.com/in/seyf-eddine-bousalem-259710b0/)!
+- [LinkedIn](https://www.linkedin.com/in/seyf-eddine-bousalem-259710b0/)
 
 ---
 
-*Project Completed – ready for review ✅*
+*Project completed — ready for review ✅*
 
 
 
